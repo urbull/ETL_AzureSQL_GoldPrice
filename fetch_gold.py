@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-#pobieramy z jednego roku, taki limit jest w API NBP
+#pobieram dane z jednego roku, taki limit jest w API NBP
 START_DATE = datetime(2024, 7, 15)
 END_DATE = datetime.today()
 NBP_GOLD_API = "https://api.nbp.pl/api/cenyzlota/{start}/{end}/?format=json"
