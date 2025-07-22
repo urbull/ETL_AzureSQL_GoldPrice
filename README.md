@@ -19,6 +19,18 @@ Ten projekt implementuje ETL korzystając z bazy danych w chmurze Microsoft Azur
 - Azure SQL Database  
 - GitHub Actions (CI/CD)  
 
+## Struktura
+
+| Plik/Folder | Opis |
+|:------------|:------------|
+| .venv/ | Środowisko wirtualne projektu |
+| .env | Plik z danymi do połączenia  |
+| fetch_gold.py | Pobieranie danych z API NBP |
+| transform_gold.py | Sprawdzenie danych |
+| upload_to_azure.py | Wysłanie danych do Azure SQL |
+| gold_prices.csv | Pobrane dane z API |
+| gold_prices_clean.csv | Zweryfikowane dane z API, gotowe do wrzucenia |
+
 ## Autor
 
 - Urbull
