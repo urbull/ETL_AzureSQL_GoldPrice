@@ -18,3 +18,7 @@ Ten projekt implementuje ETL korzystając z bazy danych w chmurze Microsoft Azur
 - Pandas  
 - Azure SQL Database  
 - GitHub Actions (CI/CD)  
+
+## Autor
+
+- Urbull
