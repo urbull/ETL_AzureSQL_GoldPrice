@@ -3,8 +3,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 #pobieram dane z jednego roku, taki limit jest w API NBP
-START_DATE = datetime(2024, 7, 15)
 END_DATE = datetime.today()
+START_DATE = END_DATE - timedelta(days=365)
 NBP_GOLD_API = "https://api.nbp.pl/api/cenyzlota/{start}/{end}/?format=json"
 
 def fetch_gold_data(start: datetime, end: datetime) -> pd.DataFrame:
